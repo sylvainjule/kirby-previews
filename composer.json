@@ -1,0 +1,16 @@
+{
+    "name": "sylvainjule/previews",
+    "description": "Add some missing structure previews",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "autoload": {
+        "files": ["config.php"]
+    },
+    "authors": [
+        {
+            "name": "Sylvain Julé",
+            "email": "contact@sylvain-jule.fr"
+        }
+    ],
+    "minimum-stability": "beta"
+}

@@ -1,0 +1,194 @@
+@import '_variables.scss';
+
+
+/* Structure field
+---------------------------------------*/
+
+.k-locator-field-preview,
+.k-toggle-field-preview,
+.k-color-field-preview,
+.k-color-palette-field-preview,
+.k-tags-field-preview,
+.k-multiselect-field-preview,
+.k-structure-field-preview {
+	padding: 0 .75rem;
+}
+
+
+/* Toggle field
+---------------------------------------*/
+
+// Toggle style
+// .k-toggle-field-preview {
+// 	.toggle {
+// 		position: relative;
+// 		width: 30px;
+// 		height: 16px;
+// 		border-radius: 8px;
+// 		background: darken(#efefef, 6%);
+// 		&:after {
+// 			content: "";
+// 			position: absolute;
+// 			top: 2px;
+// 			left: 2px;
+// 			width: 12px;
+// 			height: 12px;
+// 			border-radius: 50%;
+// 			background: white;
+// 		}
+// 	}
+// 	&[value=true] {
+// 		.toggle {
+// 			background: #a7bd69;
+// 			&:after {
+// 				left: auto;
+// 				right: 2px;
+// 			}
+// 		}
+// 	}
+// }
+
+// Checkmark style
+.k-toggle-field-preview {
+	.toggle {
+		position: relative;
+		width: 24px;
+		height: 24px;
+		background: darken(#efefef, 3%);
+		&:before, &:after {
+		  	content: "";
+		  	position: absolute;
+		  	left: calc(50% - 1px);
+		  	top: 5px;
+		  	height: 14px;
+		  	width: 2px;
+		  	background-color: darken(#efefef, 30%);
+		}
+		&:before {
+		  	transform: rotate(45deg);
+		}
+		&:after {
+		  	transform: rotate(-45deg);
+		}
+	}
+	&[value=true] {
+		.toggle {
+			background: #a7bd69;
+			&:before {
+				top: 6px;
+				left: 6px;
+				width: 12px;
+				height: 8px;
+				transform: rotate(-45deg);
+				background: none;
+				border: solid white;
+    			border-width: 0 0 2px 2px;
+			}
+			&:after {
+				display: none;
+			}
+		}
+	}
+}
+
+
+
+/* Locator field
+---------------------------------------*/
+
+.k-locator-field-preview {
+	.locator-preview {
+		display: flex;
+		figcaption {
+			box-shadow: $box-shadow-card;
+			background: $color-background;
+			line-height: 1.5em;
+			padding: 0 .5rem;
+			border: 1px solid $color-border;
+			border-left: 0;
+			border-radius: 1px;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+}
+
+
+/* Color field
+---------------------------------------*/
+
+.k-color-field-preview {
+	.color-preview {
+		width: 24px;
+		height: 24px;
+	}
+}
+
+/* Color Palette field
+---------------------------------------*/
+
+.k-color-palette-field-preview {
+	display: flex;
+	.color-preview {
+		width: 24px;
+		height: 24px;
+		&+ .color-preview {
+			margin-left: 0.25rem;
+		}
+	}
+}
+
+
+/* Multiselect field
+---------------------------------------*/
+
+.k-multiselect-field-preview {
+	.multiselect-entries {
+		overflow: hidden;
+		white-space: nowrap;
+	  	max-width: 100%;
+	  	text-overflow: ellipsis;
+		.multiselect-entry + .multiselect-entry {
+			&:before {
+				content: ", ";
+			}
+		}
+	}
+}
+
+
+/* Tags field
+---------------------------------------*/
+
+.k-tags-field-preview {
+	.tags-preview {
+		display: flex;
+		white-space: nowrap;
+		.tag {
+			display: inline-block;
+			padding: 0.25rem 0.5rem;
+			background: $color-dark;
+			color: $color-white;
+			font-size: $font-size-small;
+			&+ .tag {
+				margin-left: .25rem;
+			}
+		}
+	}
+	
+}
+
+
+/* Structure field
+---------------------------------------*/
+
+.k-structure-field-preview {
+	.structure-entries-preview {
+		display: inline-block;
+		padding: 0.2rem 0.5rem;
+		background: rgba($color-background, 0.75);
+		text-transform: uppercase;
+		font-size: $font-size-tiny;
+	}
+}
