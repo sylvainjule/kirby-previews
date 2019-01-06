@@ -43,11 +43,12 @@ npm run dev
 npm run build
 ```
 
+From there, adding a new preview might only take a few minutes: 
+
 - Start by running the plugin in dev mode to benefit from hot-reload while working on your preview (`npm run dev`)
 - Create a new preview under `src/components` (check the existing previews for how to structure content).
 - Add your preview CSS in `src/assets/styles.scss`
 - Register you new preview in `src/main.js` (check the existing previews for how to do this).
-- Create a new preview under `src/components` (check the existing previews for how to structure content).
 - Build the plugin (`npm run build`)
 - Create a pull request
 
