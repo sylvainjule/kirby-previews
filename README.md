@@ -2,6 +2,8 @@
 
 Add some missing structure previews in the panel.
 
+![screenshot](https://user-images.githubusercontent.com/14079751/50736950-dcab0080-11c3-11e9-9548-02a04cdacaaf.jpg)
+
 <br/>
 
 ## 1. Installation
