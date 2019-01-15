@@ -4,6 +4,8 @@ Add some missing structure previews in the panel.
 
 ![screenshot](https://user-images.githubusercontent.com/14079751/50736950-dcab0080-11c3-11e9-9548-02a04cdacaaf.jpg)
 
+> This plugin is completely free and published under the MIT license. However, if you are using it in a commercial project and want to help me keep up with maintenance, you can purchase your license(s) through [my affiliate link](https://a.paddle.com/v2/click/1129/36369?link=1170).
+
 <br/>
 
 ## 1. Installation
