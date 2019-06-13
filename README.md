@@ -18,7 +18,7 @@ Alternatively, you can install it with composer: ```composer require sylvainjule
 
 ## 2. Setup
 
-That's it, no need for additional config. This plugin currently provides those field-previews : 
+That's it, no need for additional config. This plugin currently provides those field-previews :
 
 - Multiselect
 - Structure
@@ -34,23 +34,14 @@ That's it, no need for additional config. This plugin currently provides those f
 
 - Clone the repo
 - `cd` to your newly created folder (named `kirby-previews`, or whatever you have chosen)
-- `npm install` to get all the dependencies (first, [install npm](https://www.npmjs.com/get-npm) if needed)
-- There are two useful command lines:
+- Please read the [pluginkit guidelines](https://github.com/getkirby/pluginkit/tree/4-panel), and install `parcel` as explained.
 
-```bash
-# Dev mode
-npm run dev
-
-# Build plugin + autoprefix styles
-npm run build
-```
-
-From there, adding a new preview might only take a few minutes: 
+From there, adding a new preview might only take a few minutes:
 
 - Start by running the plugin in dev mode to benefit from hot-reload while working on your preview (`npm run dev`)
 - Create a new preview under `src/components` (check the existing previews for how to structure content).
 - Add your preview CSS in `src/assets/styles.scss`
-- Register you new preview in `src/main.js` (check the existing previews for how to do this).
+- Register you new preview in `src/index.js` (check the existing previews for how to do this).
 - Build the plugin (`npm run build`)
 - Create a pull request
 
