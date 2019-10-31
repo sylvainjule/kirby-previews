@@ -1,4 +1,4 @@
-import TogglePreview       from './components/TogglePreview.vue'
+//import TogglePreview       from './components/TogglePreview.vue'
 import LocatorPreview      from './components/LocatorPreview.vue'
 import ColorPreview        from './components/ColorPreview.vue'
 import ColorPalettePreview from './components/ColorPalettePreview.vue'
@@ -10,7 +10,7 @@ import './assets/svg/icons.js'
 
 panel.plugin('sylvainjule/previews', {
   components: {
-    'k-toggle-field-preview': TogglePreview,
+    //'k-toggle-field-preview': TogglePreview,
     'k-locator-field-preview': LocatorPreview,
     'k-color-field-preview': ColorPreview,
     'k-color-palette-field-preview': ColorPalettePreview,
