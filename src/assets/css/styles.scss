@@ -4,8 +4,8 @@
 /* Structure field
 ---------------------------------------*/
 
+// .k-toggle-field-preview,
 .k-locator-field-preview,
-.k-toggle-field-preview,
 .k-color-field-preview,
 .k-color-palette-field-preview,
 .k-tags-field-preview,
@@ -49,47 +49,47 @@
 // }
 
 // Checkmark style
-.k-toggle-field-preview {
-	.toggle {
-		position: relative;
-		width: 24px;
-		height: 24px;
-		background: darken(#efefef, 3%);
-		&:before, &:after {
-		  	content: "";
-		  	position: absolute;
-		  	left: calc(50% - 1px);
-		  	top: 5px;
-		  	height: 14px;
-		  	width: 2px;
-		  	background-color: darken(#efefef, 30%);
-		}
-		&:before {
-		  	transform: rotate(45deg);
-		}
-		&:after {
-		  	transform: rotate(-45deg);
-		}
-	}
-	&[value=true] {
-		.toggle {
-			background: #a7bd69;
-			&:before {
-				top: 6px;
-				left: 6px;
-				width: 12px;
-				height: 8px;
-				transform: rotate(-45deg);
-				background: none;
-				border: solid white;
-    			border-width: 0 0 2px 2px;
-			}
-			&:after {
-				display: none;
-			}
-		}
-	}
-}
+// .k-toggle-field-preview {
+// 	.toggle {
+// 		position: relative;
+// 		width: 24px;
+// 		height: 24px;
+// 		background: darken(#efefef, 3%);
+// 		&:before, &:after {
+// 		  	content: "";
+// 		  	position: absolute;
+// 		  	left: calc(50% - 1px);
+// 		  	top: 5px;
+// 		  	height: 14px;
+// 		  	width: 2px;
+// 		  	background-color: darken(#efefef, 30%);
+// 		}
+// 		&:before {
+// 		  	transform: rotate(45deg);
+// 		}
+// 		&:after {
+// 		  	transform: rotate(-45deg);
+// 		}
+// 	}
+// 	&[value=true] {
+// 		.toggle {
+// 			background: #a7bd69;
+// 			&:before {
+// 				top: 6px;
+// 				left: 6px;
+// 				width: 12px;
+// 				height: 8px;
+// 				transform: rotate(-45deg);
+// 				background: none;
+// 				border: solid white;
+//     			border-width: 0 0 2px 2px;
+// 			}
+// 			&:after {
+// 				display: none;
+// 			}
+// 		}
+// 	}
+// }
 
 
 
@@ -176,7 +176,7 @@
 			}
 		}
 	}
-	
+
 }
 
 
