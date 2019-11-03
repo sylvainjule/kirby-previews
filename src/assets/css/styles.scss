@@ -93,11 +93,41 @@
 
 
 
+/* Alt files field preview
+---------------------------------------*/
+
+// .k-files-field-preview {
+//     display: flex;
+//     li + li {
+//         margin-left: .5rem;
+//     }
+//     .files-preview {
+//         display: flex;
+//         .k-image {
+//             width: 23px;
+//             display: inline-block;
+//         }
+//         figcaption {
+//             box-shadow: $box-shadow-card;
+//             background: $color-background;
+//             line-height: 1.5em;
+//             padding: 0 .5rem;
+//             border: 1px solid $color-border;
+//             border-left: 0;
+//             border-radius: 1px;
+//             white-space: nowrap;
+//             overflow: hidden;
+//             text-overflow: ellipsis;
+//         }
+//     }
+// }
+
+
 /* Locator field
 ---------------------------------------*/
 
 .k-locator-field-preview {
-	.locator-preview {
+	.locator-preview,  {
 		display: flex;
 		figcaption {
 			box-shadow: $box-shadow-card;
