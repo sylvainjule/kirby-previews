@@ -25,6 +25,7 @@ That's it, no need for additional config. This plugin currently provides those f
 - Tags
 - Toggle
 - [Color](https://github.com/TimOetting/kirby-color)
+- [Colors](https://github.com/hananils/kirby-colors)
 - [Color-palette](https://github.com/sylvainjule/kirby-color-palette)
 - [Locator](https://github.com/sylvainjule/kirby-locator)
 

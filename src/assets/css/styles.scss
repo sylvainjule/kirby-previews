@@ -7,6 +7,7 @@
 // .k-toggle-field-preview,
 .k-locator-field-preview,
 .k-color-field-preview,
+.k-colors-field-preview,
 .k-color-palette-field-preview,
 .k-tags-field-preview,
 .k-multiselect-field-preview,
@@ -145,10 +146,11 @@
 }
 
 
-/* Color field
+/* Color(s) field
 ---------------------------------------*/
 
-.k-color-field-preview {
+.k-color-field-preview,
+.k-colors-field-preview {
 	.color-preview {
 		width: 24px;
 		height: 24px;
