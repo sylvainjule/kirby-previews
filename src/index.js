@@ -1,4 +1,3 @@
-// import TogglePreview       from './components/TogglePreview.vue'
 // import FilesPreview        from './components/FilesPreview.vue'
 import ColorPreview        from './components/ColorPreview.vue'
 import ColorsPreview       from './components/ColorsPreview.vue'
@@ -9,7 +8,6 @@ import MultiselectPreview  from './components/MultiselectPreview.vue'
 
 panel.plugin('sylvainjule/previews', {
   components: {
-    // 'k-toggle-field-preview': TogglePreview,
     // 'k-files-field-preview': FilesPreview,
     'k-color-field-preview': ColorPreview,
     'k-colors-field-preview': ColorsPreview,
