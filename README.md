@@ -22,8 +22,8 @@ That's it, no need for additional config. This plugin currently provides those f
 
 - Multiselect
 - Structure
+- Blocks
 - Tags
-- Toggle
 - [Color](https://github.com/TimOetting/kirby-color)
 - [Colors](https://github.com/hananils/kirby-colors)
 - [Color-palette](https://github.com/sylvainjule/kirby-color-palette)
@@ -34,7 +34,7 @@ That's it, no need for additional config. This plugin currently provides those f
 
 - Clone the repo
 - `cd` to your newly created folder (named `kirby-previews`, or whatever you have chosen)
-- Please read the [pluginkit guidelines](https://github.com/getkirby/pluginkit/tree/4-panel), and install `parcel` as explained.
+- Please read the [pluginkit guidelines](https://github.com/getkirby/pluginkit/tree/4-panel).
 
 From there, adding a new preview might only take a few minutes:
 
@@ -45,7 +45,7 @@ From there, adding a new preview might only take a few minutes:
 - Build the plugin (`npm run build`)
 - Create a pull request
 
-> You **must** run the build process before pushing the repo, else the hot-reload code will prevent it to work in any install.
+> You **must** run the build process before pushing the repo.
 
 <br/>
 

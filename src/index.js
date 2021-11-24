@@ -5,6 +5,7 @@ import ColorPalettePreview from './components/ColorPalettePreview.vue'
 import StructurePreview    from './components/StructurePreview.vue'
 import TagsPreview         from './components/TagsPreview.vue'
 import MultiselectPreview  from './components/MultiselectPreview.vue'
+import BlocksPreview       from './components/BlocksPreview.vue'
 
 panel.plugin('sylvainjule/previews', {
   components: {
@@ -15,5 +16,6 @@ panel.plugin('sylvainjule/previews', {
     'k-structure-field-preview': StructurePreview,
     'k-tags-field-preview': TagsPreview,
     'k-multiselect-field-preview': MultiselectPreview,
+    'k-blocks-field-preview': BlocksPreview,
   }
 });

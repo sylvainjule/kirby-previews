@@ -10,7 +10,8 @@
 .k-color-palette-field-preview,
 .k-tags-field-preview,
 .k-multiselect-field-preview,
-.k-structure-field-preview {
+.k-structure-field-preview,
+.k-blocks-field-preview {
 	padding: 0 .75rem;
 }
 
@@ -111,11 +112,13 @@
 }
 
 
-/* Structure field
+/* Structure / Blocks field
 ---------------------------------------*/
 
-.k-structure-field-preview {
-	.structure-entries-preview {
+.k-structure-field-preview,
+.k-blocks-field-preview {
+	.structure-entries-preview,
+    .blocks-preview {
 		display: inline-block;
 		padding: 0.2rem 0.5rem;
 		background: rgba($color-background, 0.75);
