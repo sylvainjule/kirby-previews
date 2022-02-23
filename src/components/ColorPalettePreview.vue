@@ -12,7 +12,7 @@ export default {
     computed: {
     	convertedValue() {
     		if(this.value !== null && typeof this.value == 'object') {
-    			return Object.keys(this.value).map(key => this.value[key])
+    			return Object.keys(this.value).filter(key => key !== 'key' && key != 'tooltip').map(key => this.value[key])
     		}
     		else {
     			return [this.value]
