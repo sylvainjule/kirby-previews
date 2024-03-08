@@ -1,3 +1,6 @@
+> This plugin is archived as default previews for Kirby 4 are really good and more refined than the first ones in Kirby 3 which leaded to this plugin. It is no longer necessary.
+
+
 # Kirby Previews
 
 Add some missing structure previews in the panel.
